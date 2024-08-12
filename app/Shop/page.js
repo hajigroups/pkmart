@@ -1,4 +1,5 @@
 // app/Shop/page.js
+"use client"
 import React from 'react';
 import ClientShopNow from '../components/ClientShopNow';
 
