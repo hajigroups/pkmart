@@ -3,7 +3,7 @@
 
 import React, { useState } from 'react';
 import { useSearchParams } from 'next/navigation';
-
+import { Suspense } from 'react'
 const ClientShopNow = () => {
   const searchParams = useSearchParams();
   const image = searchParams.get('image') || '';
@@ -57,6 +57,7 @@ const ClientShopNow = () => {
   };
 
   return (
+    <Suspense>
     <div className='text-center p-40'>
       <h1 className='text-3xl font-bold mb-10'>Place the Order</h1>
 
@@ -145,6 +146,7 @@ const ClientShopNow = () => {
         />
       </form>
     </div>
+    </Suspense>
   );
 }
 
