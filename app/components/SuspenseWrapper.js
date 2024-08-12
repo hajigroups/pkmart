@@ -1,0 +1,8 @@
+// components/SuspenseWrapper.js
+import React, { Suspense } from 'react';
+
+const SuspenseWrapper = ({ children }) => {
+  return <Suspense fallback={<div>Loading...</div>}>{children}</Suspense>;
+};
+
+export default SuspenseWrapper;

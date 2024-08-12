@@ -1,5 +1,5 @@
 "use client"; // Marking this file as a Client Component
-
+import SuspenseWrapper from '../components/SuspenseWrapper';
 import React, { useState } from 'react';
 import { useSearchParams } from 'next/navigation';
 
@@ -60,6 +60,7 @@ const ShopNow = () => {
   };
 
   return (
+    <SuspenseWrapper>
     <div className='text-center p-40'>
       <h1 className='text-3xl font-bold mb-10'>Place the Order</h1>
 
@@ -148,6 +149,7 @@ const ShopNow = () => {
         />
       </form>
     </div>
+    </SuspenseWrapper>
   );
 }
 
