@@ -1,20 +1,9 @@
-"use client";
+"use client"; // Marking this file as a Client Component
 
-
-import React, { Suspense,useState } from 'react';
+import React, { useState } from 'react';
 import { useSearchParams } from 'next/navigation';
 
 const ShopNow = () => {
-  return (
-    <div className='text-center p-40'>
-      <Suspense fallback={<div>Loading...</div>}>
-        <ShopNowContent />
-      </Suspense>
-    </div>
-  );
-};
-
-const ShopNowContent = () => {
   const searchParams = useSearchParams();
 
   // Retrieve query parameters from the URL
@@ -22,7 +11,7 @@ const ShopNowContent = () => {
   const title = searchParams.get('title') || '';
   const price = searchParams.get('price') || '';
 
- const [fullname, setFullname] = useState('');
+  const [fullname, setFullname] = useState('');
   const [address, setAddress] = useState('');
   const [city, setCity] = useState('');
   const [description, setDescription] = useState('');
@@ -160,6 +149,6 @@ const ShopNowContent = () => {
       </form>
     </div>
   );
-};
+}
 
 export default ShopNow;
