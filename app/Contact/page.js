@@ -1,4 +1,3 @@
-
 "use client"; // This makes the component a client component
 import React, { useState } from 'react';
 
@@ -39,49 +38,52 @@ const Contactus = () => {
       console.error('Error submitting contact form:', error);
     }
   };
+  
 
   return (
-    <div className='container flex m-auto w-[90%] p-10'>
-      <div className="right border-x-2 w-[65%] m-auto mt-[120PX] rounded-[50px] relative z-10">
-        <h1 className='text-3xl font-bold ml-[185px] mt-10 mb-10'>Fill The form</h1>
-        <form className='flex flex-col space-y-8 w-[80%] ml-[90px] pl-[90px] pr-[40px]' onSubmit={handleSubmit}>
+    <>
+      <title>Contact US</title>
+    <div className="container mx-auto p-4 flex justify-center items-center min-h-screen">
+      <div className="bg-white shadow-lg rounded-lg p-8 w-full md:w-2/3 lg:w-1/2">
+        <h1 className="text-3xl font-bold text-center mb-8">Fill The Form</h1>
+        <form className="space-y-6" onSubmit={handleSubmit}>
           <div>
             <input
-              className="w-full h-16 p-2 text-xl placeholder-gray-500 relative outline-none bg-[#f5f6f6]"
+              className="w-full h-12 p-3 text-lg border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-gray-100"
               type="text"
               name="name"
               id="name"
-              placeholder='Name'
+              placeholder="Name"
               value={formData.name}
               onChange={handleChange}
             />
           </div>
           <div>
             <input
-              className="w-full h-16 p-2 text-xl placeholder-gray-500 outline-none relative bg-[#f5f6f6]"
+              className="w-full h-12 p-3 text-lg border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-gray-100"
               type="email"
               name="email"
               id="email"
-              placeholder='Email Address'
+              placeholder="Email Address"
               value={formData.email}
               onChange={handleChange}
             />
           </div>
           <div>
             <input
-              className="w-full h-16 p-2 text-xl placeholder-gray-500 outline-none relative bg-[#f5f6f6]"
+              className="w-full h-12 p-3 text-lg border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-gray-100"
               type="number"
               name="phone"
               id="phone"
-              placeholder='Phone Number'
+              placeholder="Phone Number"
               value={formData.phone}
               onChange={handleChange}
             />
           </div>
           <div>
             <textarea
-              className="w-full h-16 p-2 text-xl placeholder-gray-500 relative outline-none bg-[#f5f6f6]"
-              placeholder='Complain-box'
+              className="w-full h-32 p-3 text-lg border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-gray-100"
+              placeholder="Complain-box"
               name="complain"
               id="complain"
               value={formData.complain}
@@ -89,14 +91,17 @@ const Contactus = () => {
             ></textarea>
           </div>
           <div>
-            <input
-              className="w-full h-16 p-2 text-2xl bg-[#8fcac6] rounded-[20px] placeholder-gray-500 outline-none"
+            <button
+              className="w-full h-12 bg-blue-500 text-white text-lg font-bold rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
               type="submit"
-            />
+            >
+              Submit
+            </button>
           </div>
         </form>
       </div>
     </div>
+    </>
   );
 };
 

@@ -48,6 +48,10 @@ const Login = () => {
   };
 
   return (
+    <>
+        <head>
+      <title>Login Now</title>
+    </head>
     <div className='container flex m-auto w-[90%] p-10'>
       <div className="right border-x-2 w-[65%] rounded-l-[50px] relative z-10">
         <h1 className='text-3xl font-bold ml-[185px] mt-10 mb-20'>Login</h1>
@@ -101,6 +105,7 @@ const Login = () => {
         />
       </div>
     </div>
+    </>
   );
 };
 

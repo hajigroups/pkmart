@@ -61,6 +61,9 @@ const Signup = () => {
 
   return (
     <>
+        <head>
+      <title>Signup Now</title>
+    </head>
       <div className='container flex m-auto w-[90%] p-10'>
         <div className="left bg-emerald-500 w-[35%] h-[770px] rounded-l-[50px] overflow-hidden"> 
           <img

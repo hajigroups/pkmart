@@ -198,27 +198,31 @@ const Navbar = () => {
           )}
         </li>
         <li>
-          <Link 
-            className={`block py-2 px-4 ${isActive('/About') ? 'text-blue-500 font-bold' : 'hover:text-red-500'}`} 
+          <Link
+            className={`block py-2 px-4 ${isActive('/About') ? 'text-blue-500 font-bold' : 'hover:text-red-500'}`}
             href="/About"
           >
             About Us
           </Link>
         </li>
+        <li>
+          {isAuthenticated ? (
+            <button
+              className="block py-2 px-4 hover:text-red-500"
+              onClick={handleLogout}
+            >
+              Logout
+            </button>
+          ) : (
+            <Link
+              className={`block py-2 px-4 ${isActive('/Login') ? 'text-blue-500 font-bold' : 'hover:text-red-500'}`}
+              href="/Login"
+            >
+              Login
+            </Link>
+          )}
+        </li>
       </ul>
-      <div className="flex flex-col lg:flex-row mt-4 lg:mt-0 space-y-2 lg:space-x-2 lg:space-y-0">
-        {!isAuthenticated ? (
-          <>
-            <Link className="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center" href="/Login">Login</Link>
-            <Link className="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center" href="/Signup">Sign up</Link>
-          </>
-        ) : (
-          <>
-            <Link className="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center" href="/Dashboards">Dashboard</Link>
-            <button onClick={handleLogout} className="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Logout</button>
-          </>
-        )}
-      </div>
     </nav>
   );
 };

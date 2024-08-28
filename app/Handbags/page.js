@@ -12,6 +12,64 @@ const Handbags = () => {
 
   const cards = [
     {
+      images: ['/womansuits/MZ60500243BGWRD.jpg', '/womansuits/MZ60500243BGWRD-2.jpg',],
+      title: `3pc Woman's PU leather Plain Handbag`,
+      price: 'Rs2399',
+      Description:`•  Material: PU Leather
+•  Product Type: Handbag, Crossbody & Clutch
+•  Pattern Design: Plain
+•  Details: Elegant, Easy To Carry, Everyday Use
+•  Size: HandBag (10 x 11 Inches), Cross Body (7.5 x 7 Inches), Clutch (4 x 8 Inches)
+•  Package Includes: 1 x HandBag, 1 x Crossbody, 1 x Clutch
+•  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+
+
+
+`
+    },
+    {
+      images: ['/womansuits/MZ80400024EMSTR.jpg', '/womansuits/MZ80400024EMSTR-2.jpg',],
+      title: `3pc Woman's PU leather Plain Handbag`,
+      price: 'Rs2199',
+      Description:`•  Material: PU Leather
+•  Product Type: 3 Pcs Bags
+•  Pattern Design: Plain
+•  Details: Elegant, Easy To Carry, Everyday Use
+•  Size: 14 X 11.5 X 4.5 Inches
+•  Package Includes: 1 x Large Bag, 1 x Pouch, 1 x Clutch
+•  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+
+
+`
+    },
+    {
+      images: ['/womansuits/MZ80400030EMSTR.jpg', '/womansuits/MZ80400030EMSTR-2.jpg',],
+      title: `2pcs Woman's PU Leather  plain Handbag`,
+      price: 'Rs2099',
+      Description:`•  Material: PU Leather
+•  Product Type: 2 Pcs Bags
+•  Pattern Design: Plain
+•  Details: Elegant, Easy To Carry, Everyday Use
+•  Size: 10 X 8.5 X 4.5 Inches
+•  Package Includes: 1 x Large Bag, 1 x Pouch
+•  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+
+`
+    },
+    {
+      images: ['/womansuits/MZ60500374BGWRD.jpg', '/womansuits/MZ60500374BGWRD-2.jpg','/womansuits/MZ60500374BGWRD-3.jpg'],
+      title: `3 Pcs Woman's Shoulder Bag`,
+      price: 'Rs2399',
+      Description:`•  Material/Fabric: Leather
+•  Product Pattern: Plain
+•  No. Of Pieces: 3 Pcs
+•  (1 x Shoulder Bag, 1 x Cross Body, 1 x Clutch)
+•  Size:  Shoulder Bag (10 x 11 Inches), Cross Body (6 x 8 Inches)             
+•   Package Includes: 1 x Shoulder Bag
+•  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+`
+    },
+    {
       images: ['/womansuits/MZ59120005GNCR.jpg', '/womansuits/MZ59120005GNCR-2.jpg'],
       title: 'Pure Leather Plain Hand Bag With Long Chain  strap',
       price: 'Rs2299',
@@ -21,7 +79,7 @@ const Handbags = () => {
 •  No. Of Pieces: 2 Pc
 •  Package Includes: 1 x Hand Bag
 •  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
-•  Product Code: MZ59120005GNCR`
+`
     },
     
     {
@@ -34,7 +92,7 @@ const Handbags = () => {
 •  No. Of Pieces: 1 Pc
 •  Package Includes: 1 x Hand Bag
 •  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
-•  Product Code: MZ59120020GNCR`
+`
     },
     {
       images: ['/womansuits/MZ59120010GNCR.jpg', '/womansuits/MZ59120010GNCR-2.jpg', ],
@@ -46,7 +104,7 @@ const Handbags = () => {
 •  No. Of Pieces: 2 Pc
 •  Package Includes: 1 x Hand Bag
 •  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
-•  Product Code: MZ59120010GNCR`
+`
     },
     {
       images: ['/womansuits/MZ57200041GLSNC.jpg', '/womansuits/MZ57200041GLSNC-2.jpg'],
@@ -60,7 +118,7 @@ const Handbags = () => {
 •  Package Includes: 1 X Handbag, 1 X Makeup Pouch, 1 X Wallet, 1X Long Strap, 1 X Golden Chain, 1 X Keychain
 •  Package Includes: 1 X Shoulder Bag
 •  Note: There Might Be An Error Of 1-3 Cm Due To Manual Measurement, And Slight Color Differences May Occur As A Result Of Varying Lighting And Monitor Effects.
-•  Product Code: MZ57200041GLSNC`
+`
     },
     {
       images: ['/womansuits/MZ57200010GLSNC.jpg',],
@@ -74,7 +132,7 @@ const Handbags = () => {
 •  Ideal for Office and Party 
 •  Note: There might be 1-3 Cm errors of dimension data due to pure manual measurement
 •  There might be slight color differences due to different light and monitor effect.
-•  Product Code: MZ57200010GLSNC`
+`
     },
     {
       images: ['/womansuits/MZ13120001ZHHE.jpg', '/womansuits/MZ13120001ZHHE-2.jpg', '/womansuits/MZ13120001ZHHE-3.jpg', ],
@@ -88,7 +146,7 @@ const Handbags = () => {
 •  Package Includes: 1 x Hand Bag
 •  Size:10×9 inches
 •  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
-•  Product Code: MZ13120001ZHHE`
+`
     },
     {
       images: ['/womansuits/MZ61220084FECS.jpg', '/womansuits/MZ61220084FECS-2.jpg', '/womansuits/MZ61220084FECS-3.jpg', '/womansuits/MZ61220084FECS-4.jpg',],
@@ -101,7 +159,7 @@ const Handbags = () => {
 •  Color: Brown
 •  Package Includes: 1 x Hand Bag
 •  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
-•  Product Code: MZ61220084FECS`
+`
     },
    
     {
@@ -116,7 +174,7 @@ const Handbags = () => {
 •  Strap Color/Type: Long Shoulder Strap
 •  Package Includes: 1 x Shoulder Bag, 1 x Crossbody Bag, 1 x Wallet
 •  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
-•  Product Code: MZ60500318BGWRD`
+`
     },
     {
       images: ['/womansuits/MZ60500369BGWRD.jpg', '/womansuits/MZ60500369BGWRD-2.jpg', '/womansuits/MZ60500369BGWRD-3.jpg',],
@@ -129,7 +187,7 @@ const Handbags = () => {
 •  With Long Shoulder Strap
 •  Package Includes: 1 x Shoulder Bag With Strap(10 x 11 Inches), 1 x Cross Body (6 x 8 Inches)
 •  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
-•  Product Code: MZ60500369BGWRD`
+`
     },
 
     {
@@ -142,7 +200,7 @@ const Handbags = () => {
 •  Color: White
 •  Package Includes: 1 x Hand Bag, 1 x Crossbody Bag
 •  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
-•  Product Code: MZ62420015BSWD`
+`
     },  
     {
       images: ['/womansuits/MZ97700000025STPK.jpg', '/womansuits/MZ97700000025STPK-2.jpg', '/womansuits/MZ97700000025STPK-3.jpg', '/womansuits/MZ97700000025STPK-4.jpg','/womansuits/MZ97700000025STPK-5.jpg','/womansuits/MZ97700000025STPK-6.jpg','/womansuits/MZ97700000025STPK-7.jpg','/womansuits/MZ97700000025STPK-8.jpg',],
@@ -158,7 +216,7 @@ const Handbags = () => {
 •  Card Diary: Height 2 Inches, Width 2 Inches
 •  Package Includes: 1 x Shoulder Bag, 1 x Makeup Pouch, 1 x Clutch, 1 x Card Diary
 •  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
-•  Product Code: MZ97700000025STPK`
+`
     },  
     
     // ... (same as before)
@@ -215,6 +273,10 @@ const Handbags = () => {
   };
 
   return (
+    <>
+    <head>
+      <title>Woman Handbags</title>
+    </head>
     <div className="relative flex flex-col items-center mt-[120px] px-4">
       <div className="flex overflow-hidden gap-2 mb-4 flex-wrap justify-center">
         {cards.slice(currentIndex, currentIndex + itemsToShow).map((card, index) => (
@@ -269,7 +331,7 @@ const Handbags = () => {
         disabled={currentIndex === 0}
         aria-label="Previous"
         className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-blue-500 text-white p-2 rounded-lg disabled:bg-gray-300"
-      >
+        >
         Prev
       </button>
       <button
@@ -282,8 +344,8 @@ const Handbags = () => {
       </button>
       {selectedCard && (
         <div
-          className="fixed top-0 left-0 w-full h-full  bg-black bg-opacity-50 flex items-center justify-center"
-          onClick={handleOverlayClick}
+        className="fixed top-0 left-0 w-full h-full  bg-black bg-opacity-50 flex items-center justify-center"
+        onClick={handleOverlayClick}
         >
           <div className="relative bg-white p-4 md:p-6 rounded-lg max-w-lg mx-4" onClick={(e) => e.stopPropagation()}>
             <button
@@ -329,6 +391,7 @@ const Handbags = () => {
         </div>
       )}
     </div>
+              </>
   );
 };
 

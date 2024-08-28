@@ -12,6 +12,139 @@ const Cosmetics = () => {
 
   const cards = [
     {
+      images: ['/womansuits/MZ53900126BTBZR.jpg', '/womansuits/MZ53900126BTBZR-2.jpg','/womansuits/MZ53900126BTBZR-3.jpg',],
+      title: 'Lemon Body And Face Finger Wax',
+      price: 'Rs599',
+      Description:`•  Material: Liquid
+•  Product Type: Lemon Body And Face Finger Wax
+•  Product Details: Achieve Smooth, Hair Free Skin, Effortlessly Easy To Use Finger Wax Hair Remover, Suitable For Both Body And Facial Hair Removal, It Provides Salon Quality Results In The Comfort Of Your Own Home
+•  Package Includes: 1 x Wax Jar
+•  Weight: 150 g
+•  Disclaimer: Before using a new cosmetic product, conduct a test on a small area of your skin
+•  If you have a specific allergy or sensitivity, check the ingredients to avoid a reaction
+•  Always read the warning labels and directions on the package for using any cosmetic products.
+
+`
+    },
+    {
+      images: ['/womansuits/MZ90900000018MPFR.jpg', '/womansuits/MZ90900000018MPFR-2.jpg','/womansuits/MZ90900000018MPFR-3.jpg',],
+      title: '12 items Makeup Deal',
+      price: 'Rs2199',
+      Description:`•  Package Includes:
+•  1 x Liquid Concealer
+•  1 x Lip Gloss
+•  1 x Matt
+•  1 x Makeup Fixer
+•  1 x Mascara
+•  1 x Concealer
+•  1 x Bene Tit
+•  1 x Liquid Fini Mat
+•  1 x Instant Eraser
+•  1 x Lipstick
+•  1 x Blush
+•  1 x Eyeliner
+•  Disclaimer: Before using a new cosmetic product, conduct a test on a small area of your skin. If you have a specific allergy or sensitivity, check the ingredients to avoid a reaction. Always read the warning labels and directions on the package for using any cosmetic products.
+•  Product Code: MZ90900000018MPFR
+
+`
+    },
+    {
+      images: ['/womansuits/MZ90900000020MPFR.jpg', '/womansuits/MZ90900000020MPFR-2.jpg','/womansuits/MZ90900000020MPFR-3.jpg',],
+      title: 'Jaclyn Hill Eyeshadow Palette',
+      price: 'Rs1199',
+      Description:`•  Weight 0.250 kg
+•  An eyeshadow palette typically includes a range of colors and finishes, offering versatility to create various eye makeup looks, from natural to dramatic.
+•  Palettes are curated with complementary shades that work well together, making it easy to mix
+•  Eyeshadow palettes come in compact packaging, making them travel-friendly and convenient for on-the-go touch-ups
+•  Package Includes: 1 x Eyeshadow Palette
+•  Disclaimer: Before using a new cosmetic product, conduct a test on a small area of your skin. If you have a specific allergy or sensitivity, check the ingredients to avoid a reaction. Always read the warning labels and directions on the package for using any cosmetic products
+
+
+`
+    },
+    {
+      images: ['/womansuits/MZ48800028ARUMT.jpg', '/womansuits/MZ48800028ARUMT-2.jpg','/womansuits/MZ48800028ARUMT-3.jpg',],
+      title: '13 in1 Makeup Deal',
+      price: 'Rs2399',
+      Description:`•  Package Includes: 1 x Nude Palette, 1 x Makeup Fixer, 1 x Compact Face Powder, 1 x Foundation, 1 x Concealer, 1 x Lip Pencil, 1 x Eyeliner, 1 x Lip Gloss, 1 x Brushes Set, 1 x Primer, 1 x Lipsticks, 1 x Blender Puff, 1 x Mascara
+•  Disclaimer: Before using a new cosmetic product, conduct a test on a small area of your skin. If you have a specific allergy or sensitivity, check the ingredients to avoid a reaction. Always read the warning labels and directions on the package for using any cosmetic products.
+
+
+`
+    },
+    {
+      images: ['/womansuits/MZ48800028ARUMT.jpg', '/womansuits/MZ48800028ARUMT-2.jpg','/womansuits/MZ48800028ARUMT-3.jpg',],
+      title: '10 in 1 Gold Facial kit',
+      price: 'Rs2399',
+      Description:`•  Material: Cream
+•  Product Type: Whitening And Glowing Facial Kit
+•  Package Includes: 1 x Cleanser Instant Skin Glow, 1 x Scrub Instant Skin Glow, 1 x Polisher Instant Skin Glow, 1 x Massage Instant Skin Glow, 1 x Mask Instant Skin Glow, 1 x Bleach Instant Skin Glow, 1 x Bleach Cream, 1 x Bleach Accelerator, 1 x Soothing Lotion, 1 x Skin Toner Instant Skin Glow
+•  Disclaimer: Before using a new cosmetic product, conduct a test on a small area of your skin
+•  If you have a specific allergy or sensitivity, check the ingredients to avoid a reaction
+•  Always read the warning labels and directions on the package for using any cosmetic products.
+
+`
+    },
+    {
+      images: ['/womansuits/MZ100400142LHLE.jpg', '/womansuits/MZ100400142LHLE-2.jpg','/womansuits/MZ100400142LHLE-3.jpg',],
+      title: 'High Pigment Lip Gloss Pack of 6',
+      price: 'Rs1199',
+      Description:`•  Material: Liquid
+•  High Pigmented
+•  Colors: Sweet Orange, Lovely Peach, Red, Watermelon, Rose Pink, Cherry Red
+•  Volume: 1.5ml
+•  Weight: 0.20 kg
+•  Package Includes: 6 x Lip Gloss
+•  Note: Before using any new cosmetic product, perform a patch test on a small skin area. Verify ingredients for allergies and follow package warnings and directions.
+
+`
+    },
+    {
+      images: ['/womansuits/MZ100400140LHLE.jpg', '/womansuits/MZ100400140LHLE-2.jpg','/womansuits/MZ100400140LHLE-3.jpg',],
+      title: 'Eye lashes Mascara And eyeliner',
+      price: 'Rs599',
+      Description:`•  Material: Powder
+•  Smudge-Proof, Creamy Texture Covers Each Individual Lash With Color
+•  The Extra Large Plastic Brush Provides Sensational Volume
+•  Package Includes: 1 x Eyeliner, 1 x Mascara
+•  Note: Before using any new cosmetic product, perform a patch test on a small skin area. Verify ingredients for allergies and follow package warnings and directions.
+
+`
+    },
+    {
+      images: ['/womansuits/MZ100400113LHLE.jpg', '/womansuits/MZ100400113LHLE-2.jpg','/womansuits/MZ100400113LHLE-3.jpg',],
+      title: 'Whitening And Brighting rice facial Kit',
+      price: 'Rs1500',
+      Description:`•  Product Feature: Whitening And Brightening
+•  Package Includes: 1 x Facial Kit
+•  Disclaimer: Before using a new cosmetic product, conduct a test on a small area of your skin. If you have a specific allergy or sensitivity, check the ingredients to avoid a reaction. Always read the warning labels and directions on the package for using any cosmetic products.
+
+
+`
+    },
+    {
+      images: ['/womansuits/MZ90900000004MPFR.jpg', '/womansuits/MZ90900000004MPFR-2.jpg',],
+      title: '12 in 1 makeup deal',
+      price: 'Rs2100',
+      Description:` Material: Liquid, Cream
+•  Pack Of: Pack Of 12
+•  Package Includes: 1 x Makeup Fixer, 1 x Foundation, 1 x Concealer, 1 x Loose Powder, 1 x Mascara, 1 x Handi Base, 1 x Black Kajal, 1 x Liner, 1 x 3 in 1 Lipstick, 1 x Primer, 1 x White Pencil, 1 x Lip Pencil.
+•  Disclaimer: Before using a new cosmetic product, conduct a test on a small area of your skin. If you have a specific allergy or sensitivity, check the ingredients to avoid a reaction. Always read the warning labels and directions on the package for using any cosmetic products.
+
+`
+    },
+    {
+      images: ['/womansuits/MZ90900000005MPFR.jpg', '/womansuits/MZ90900000005MPFR-2.jpg',],
+      title: '9 in 1 makeupdeal',
+      price: 'Rs1990',
+      Description:`•  Material: Liquid, Cream
+•  Pack Of: Pack Of 9
+•  Package Includes: 1 x Makeup Fixer, 1 x Foundation, 1 x Primer, 1 x Loose Powder, 1 x Handi Base, 1 x Lipstick, 1 x Gloss, 1 x Paint Stick, 1 x Concealer
+•  Disclaimer: Before using a new cosmetic product, conduct a test on a small area of your skin. If you have a specific allergy or sensitivity, check the ingredients to avoid a reaction. Always read the warning labels and directions on the package for using any cosmetic products.
+
+`
+    },
+    {
       images: ['/womansuits/MZ23900071GLMRS.jpg', '/womansuits/MZ23900071GLMRS-2.jpg','/womansuits/MZ23900071GLMRS-3.jpg','/womansuits/MZ23900071GLMRS-4.jpg','/womansuits/MZ23900071GLMRS-5.jpg',],
       title: '6 in 1 Matte LipStick Set',
       price: 'Rs999',
@@ -19,7 +152,8 @@ const Cosmetics = () => {
 •  Matte Shades
 •  Shades: Grapefruit Pink, Rotten Tomato, True Red, Diamond Red, Brick Red, And Reddish Brown
 •  Disclaimer: Before using a new cosmetic product, try a test on a small area of your skin. If you have a specific allergy or sensitivity, check the ingredients to avoid a reaction. Always read warning labels and directions on the package for using any cosmetics.
-•  Product Code: MZ23900071GLMRS`
+
+`
     },
     {
       images: ['/womansuits/MZ90920010MPFR.jpg', '/womansuits/MZ90920010MPFR-2.jpg',],
@@ -44,7 +178,7 @@ const Cosmetics = () => {
 •  Weight: 0.5kg
 •  Package Includes: 16 x Makeup Deal
 •  Disclaimer: Before using a new cosmetic product, conduct a test on a small area of your skin. If you have a specific allergy or sensitivity, check the ingredients to avoid a reaction. Always read the warning labels and directions on the package for using any cosmetic products.
-•  Product Code: MZ90920010MPFR`
+`
     },
     {
       images: ['/womansuits/MZ90900000001MPFR.jpg', '/womansuits/MZ90900000001MPFR-2.jpg',],
@@ -68,7 +202,7 @@ const Cosmetics = () => {
 •  14) Miss Rose Nailpolish
 •  15) Essence Mascara 
 •  Disclaimer: Before using a new cosmetic product, conduct a test on a small area of your skin. If you have a specific allergy or sensitivity, check the ingredients to avoid a reaction. Always read the warning labels and directions on the package for using any cosmetic products.
-•  Product Code: MZ90900000001MPFR`
+`
     },
     
     {
@@ -80,7 +214,7 @@ const Cosmetics = () => {
 •  Matte Lipsticks
 •  Highly Pigmented
 •  Disclaimer: Before using a new cosmetic product, try a test on a small area of your skin. If you have a specific allergy or sensitivity, check the ingredients to avoid a reaction. Always read warning labels and directions on the package for using any cosmetics.
-•  Product Code: MZ20700035BTYGM`
+`
     },
     {
       images: ['/womansuits/MZ18700649RFAAC.jpg', '/womansuits/MZ18700649RFAAC-2.jpg','/womansuits/MZ18700649RFAAC-3.jpg','/womansuits/MZ18700649RFAAC-4.jpg', ],
@@ -93,7 +227,7 @@ const Cosmetics = () => {
 •  Disclaimer: Before using a new cosmetic product, conduct a test on a small area of your skin
 •  If you have a specific allergy or sensitivity, check the ingredients to avoid a reaction
 •  Always read the warning labels and directions on the package for using any cosmetic products.
-•  Product Code: MZ18700649RFAAC`
+`
     },
     {
       images: ['/womansuits/MZ63900033TCGLW.jpg', '/womansuits/MZ63900033TCGLW-2.jpg','/womansuits/MZ63900033TCGLW-3.jpg','/womansuits/MZ63900033TCGLW-4.jpg'],
@@ -107,7 +241,7 @@ const Cosmetics = () => {
 •  Disclaimer: Before using a new cosmetic product, conduct a test on a small area of your skin
 •  If you have a specific allergy or sensitivity, check the ingredients to avoid a reaction
 •  Always read the warning labels and directions on the package for using any cosmetic products.
-•  Product Code: MZ63900033TCGLW`
+`
     },
     {
       images: ['/womansuits/MZ63900137TCGLW.jpg','/womansuits/MZ63900137TCGLW-2.jpg',],
@@ -118,7 +252,7 @@ const Cosmetics = () => {
 •  Product Feature: High Coverage
 •  Package Includes: 1 x Foundation
 •  Note: Before using any new cosmetic product, perform a patch test on a small skin area. Verify ingredients for allergies and follow package warnings and directions.
-•  Product Code: MZ63900137TCGLW`
+`
     },
     {
       images: ['/womansuits/MZ67400107CYCH.jpg', '/womansuits/MZ67400107CYCH-2.jpg', '/womansuits/MZ67400107CYCH.jpg', ],
@@ -128,7 +262,7 @@ const Cosmetics = () => {
 •  Its A Revolutionary Solution Designed To Make Hair Removal Easier
 •  Package Includes: 1 x Hair Removal Spray
 •  Disclaimer: Before using a new cosmetic product, conduct a test on a small area of your skin. If you have a specific allergy or sensitivity, check the ingredients to avoid a reaction. Always read the warning labels and directions on the package for using any cosmetic products.
-•  Product Code: MZ67400107CYCH`
+`
     },
     {
       images: ['/womansuits/MZ23900004GLMRS.jpg', '/womansuits/MZ23900004GLMRS-2.jpg', '/womansuits/MZ23900004GLMRS-3.jpg', '/womansuits/MZ23900004GLMRS-4.jpg',],
@@ -140,7 +274,7 @@ const Cosmetics = () => {
 •  Twisted Thread Loops
 •  Removes An Entire Straight Line Of Hairs At Once
 •  Less Irritating To Skin Than Waxing
-•  Product Code: MZ23900004GLMRS`
+`
     },
    
     {
@@ -151,7 +285,7 @@ const Cosmetics = () => {
 •  Product Details: Remove Unwanted Facial Hair, Perfect For Eyebrows, Leaving Your Clean And Flawless, Safe And Gentle, Durable And Long Lasting, Easy To Use, Smooth Hair Free Skin
 •  Package Includes: 1 x Trimmer
 •  Note: Please ensure to follow the instructions provided in the user manual for proper usage and safety precautions
-•  Product Code: MZ49200029AFTRD`
+`
     },
     {
       images: ['/womansuits/MZ103420032FSBY.jpg', '/womansuits/MZ103420032FSBY-2.jpg', '/womansuits/MZ103420032FSBY-3.jpg',],
@@ -161,7 +295,7 @@ const Cosmetics = () => {
 •  Anti-Dandruff, Anti-Hair Fall, Damaged Hair
 •  Package Includes: 1 x Hair Oil
 •  Note: Before using any new cosmetic product, perform a patch test on a small skin area. Verify ingredients for allergies and follow package warnings and directions.
-•  Product Code: MZ103420032FSBY`
+`
     },
 
     {
@@ -175,7 +309,7 @@ const Cosmetics = () => {
 •  Disclaimer: Before using a new cosmetic product, conduct a test on a small area of your skin
 •  If you have a specific allergy or sensitivity, check the ingredients to avoid a reaction
 •  Always read the warning labels and directions on the package for using any cosmetic products.
-•  Product Code: MZ23900139GLMRS`
+`
     },  
     {
       images: ['/womansuits/MZ726002809BSMCS.jpg', '/womansuits/MZ726002809BSMCS-2.jpg', '/womansuits/MZ726002809BSMCS-3.jpg', '/womansuits/MZ726002809BSMCS-4.jpg',],
@@ -193,7 +327,7 @@ const Cosmetics = () => {
 •  1 x Matte Foundation(Random)
 •  1 x Beauty Blender
 •  Disclaimer: Before using a new cosmetic product, conduct a test on a small area of your skin. If you have a specific allergy or sensitivity, check the ingredients to avoid a reaction. Always read the warning labels and directions on the package for using any cosmetic products.
-•  Product Code: MZ726002809BSMCS`
+`
     },  
     {
       images: ['/womansuits/MZ18700311RFAAC.jpg',],
@@ -202,7 +336,7 @@ const Cosmetics = () => {
       Description:`•  Pack of 12
 •  Nail Polish
 •  Disclaimer: Before using a new cosmetic product, try a test on a small area of your skin. If you have a specific allergy or sensitivity, check the ingredients to avoid a reaction. Always read warning labels and directions on the package for using any cosmetics.
-•  Product Code: MZ18700311RFAAC`
+`
     },  
     {
       images: ['/womansuits/MZ83420001ASGM.jpg','/womansuits/MZ83420001ASGM-2.jpg',],
@@ -214,7 +348,7 @@ const Cosmetics = () => {
 •  Size: 13cm x 6.5cm x 4.1cm/5.12" x 2.56" x 1.61" 
 •  Package Includes: 1 x Curler
 •  Note: Please ensure to follow the instructions provided in the user manual for proper usage and safety precautions.
-•  Product Code: MZ83420001ASGM`
+`
     },  
     {
       images: ['/womansuits/MZ15300384WZRSP.jpg','/womansuits/MZ15300384WZRSP-2.jpg','/womansuits/MZ15300384WZRSP-3.jpg','/womansuits/MZ15300384WZRSP-4.jpg','/womansuits/MZ15300384WZRSP-5.jpg','/womansuits/MZ15300384WZRSP-6.jpg',],
@@ -230,7 +364,7 @@ const Cosmetics = () => {
 •  Color: Black
 •  Package Includes: 1 x Hair Straightener
 •  Note: Please ensure to follow the instructions provided in the user manual for proper usage and safety precautions.
-•  Product Code: MZ15300384WZRSP`
+`
     },  
     {
       images: ['/womansuits/MZ95900000016STPSADCS.jpg','/womansuits/MZ95900000016STPSADCS-2.jpg','/womansuits/MZ95900000016STPSADCS-3.jpg','/womansuits/MZ95900000016STPSADCS-4.jpg',],
@@ -245,7 +379,7 @@ const Cosmetics = () => {
 •  Quantity: 50 ml
 •  Package Includes: 1 x Perfume
 •  Note: For external use only. Patch test before regular use, Discontinue if irritation occurs|Avoid contact with eyes.
-•  Product Code: MZ95900000016STPSADCS`
+`
     },  
     {
       images: ['/womansuits/MZ2600350ARCC.jpg','/womansuits/MZ2600350ARCC-2.jpg','/womansuits/MZ2600350ARCC-3.jpg','/womansuits/MZ2600350ARCC-4.jpg',],
@@ -255,7 +389,7 @@ const Cosmetics = () => {
 •  Brand: Dragon Ranee
 •  Long Lasting Make-up
 •  Easy To Carry
-•  Product Code: MZ2600350ARCC`
+`
     },  
     {
       images: ['/womansuits/MZ18700224RFAAC.jpg',],
@@ -267,7 +401,7 @@ const Cosmetics = () => {
 •  Easy to Carry
 •  Pack of 6
 •  Waterproof
-•  Product Code: MZ18700224RFAAC`
+`
     },  
     {
       images: ['/womansuits/MZ18700411RFAAC.jpg','/womansuits/MZ18700411RFAAC-2.jpg','/womansuits/MZ18700411RFAAC-3.jpg',],
@@ -279,7 +413,7 @@ const Cosmetics = () => {
 •  Soft And Non Shedding
 •  Foundation, Blending, Face Powder, Eyeshadow, Eyebrows
 •  Makeup Combo Brush Kit
-•  Product Code: MZ18700411RFAAC`
+`
     },  
     {
       images: ['/womansuits/MZ18700470RFAAC.jpg','/womansuits/MZ18700470RFAAC-2.jpg','/womansuits/ MZ18700470RFAAC-3.jpg',],
@@ -292,7 +426,7 @@ const Cosmetics = () => {
 •  It Will Aid In The Fading Of Sun Spots And Discoloration, The Refinement Of Skin Texture, The Reduction Of Wrinkle Production, And The Minimization Of Existing Wrinkles
 •  All Skin Types
 •  Disclaimer: Before Using A New Cosmetic Product, Try A Test On A Small Area Of Your Skin. If You Have A Specific Allergy Or Sensitivity, Check The Ingredients To Avoid A Reaction. Always Read Warning Labels And Directions On The Package For Using Any Cosmetics.
-•  Product Code: MZ18700470RFAAC`
+`
     },  
     {
       images: ['/womansuits/MZ60320022MNSRPS.jpg','/womansuits/MZ60320022MNSRPS-2.jpg','/womansuits/MZ60320022MNSRPS-3.jpg','/womansuits/MZ60320022MNSRPS-4.jpg','/womansuits/MZ60320022MNSRPS-5.jpg',],
@@ -300,7 +434,7 @@ const Cosmetics = () => {
       price: '799',
       Description:`•  Package Includes: 1 x Night Cream
 •  Disclaimer: Before using a new cosmetic product, conduct a test on a small area of your skin. If you have a specific allergy or sensitivity, check the ingredients to avoid a reaction. Always read the warning labels and directions on the package for using any cosmetic products.
-•  Product Code: MZ60320022MNSRPS`
+`
     },  
     {
       images: ['/womansuits/MZ55000000001EISHAS.jpg','/womansuits/MZ55000000001EISHAS-2.jpg','/womansuits/MZ55000000001EISHAS-3.jpg','/womansuits/MZ55000000001EISHAS-4.jpg','/womansuits/MZ55000000001EISHAS-5.jpg','/womansuits/MZ55000000001EISHAS-6.jpg','/womansuits/MZ55000000001EISHAS-7.jpg',],
@@ -315,7 +449,7 @@ const Cosmetics = () => {
 •  Product Warranty (7 days check warenty)
 •  Product Ingredient (natural skin 
 •  Disclaimer: Before using a new cosmetic product, conduct a test on a small area of your skin. If you have a specific allergy or sensitivity, check the ingredients to avoid a reaction. Always read the warning labels and directions on the package for using any cosmetic products.
-•  Product Code: MZ55000000001EISHAS`
+`
     },  
     
     // ... (same as before)
@@ -372,6 +506,10 @@ const Cosmetics = () => {
   };
 
   return (
+    <>
+        <head>
+      <title>Woman Cosmetics</title>
+    </head>
     <div className="relative flex flex-col items-center mt-[120px] px-4">
       <div className="flex overflow-hidden gap-2 mb-4 flex-wrap justify-center">
         {cards.slice(currentIndex, currentIndex + itemsToShow).map((card, index) => (
@@ -486,6 +624,7 @@ const Cosmetics = () => {
         </div>
       )}
     </div>
+      </>
   );
 };
 

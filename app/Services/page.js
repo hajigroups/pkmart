@@ -2,6 +2,10 @@ import React from 'react';
 
 const Services = () => {
   return (
+    <>
+        <head>
+      <title>Services</title>
+    </head>
     <div className="bg-gray-100 min-h-screen">
       <header className="bg-[#0d98ba] text-white py-6">
         <div className="container mx-auto text-center">
@@ -38,6 +42,7 @@ const Services = () => {
         </div>
       </footer>
     </div>
+    </>
   );
 }
 

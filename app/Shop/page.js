@@ -60,6 +60,10 @@ const ShopNow = () => {
   };
 
   return (
+    <>
+        <head>
+      <title>Order Now</title>
+    </head>
     <div className='text-center p-40'>
       <h1 className='text-3xl font-bold mb-10'>Place the Order</h1>
 
@@ -80,7 +84,7 @@ const ShopNow = () => {
             placeholder='Product Title'
             value={title}
             readOnly
-          />
+            />
         </div>
         <div className='Product-price m-3'>
           <input
@@ -145,9 +149,10 @@ const ShopNow = () => {
           type="submit"
           className='w-fit p-4 m-4 text-2xl bg-[#F0ECE3] rounded-xl outline-none cursor-pointer'
           value="Order Now"
-        />
+          />
       </form>
     </div>
+          </>
   );
 }
 

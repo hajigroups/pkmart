@@ -11,6 +11,373 @@ const WomanSuits = () => {
   const router = useRouter();
 
   const cards = [
+
+    {
+      images: ['/womansuits/MZ19800638GWAS-7.jpg','/womansuits/MZ19800638GWAS-5.jpg','/womansuits/MZ19800638GWAS-6.jpg',],
+      title: '3pc woman unstiched  lawn embrioderded suit',
+      price: 'Rs3399',
+      Description:`•  Fabric: Lawn
+•  Pattern: Embroidered
+•  Shirt Front Pattern: Embroidered
+•  Shirt Back Pattern: Plain
+•  Trouser Pattern: Plain
+•  Dupatta Fabric: Chiffon
+•  Dupatta Pattern: Embroidered
+•  Number Of Pieces: 3 Pcs
+•  Package Includes: 1 x Shirt, 1 x Trouser, 1 x Dupatta
+•  Shirt Cutting: 2.25 Gazz
+•  Trouser Cutting: 2.25 Gazz
+•  Dupatta Cutting: 2.25 Gazz
+•   Color: Mustard
+•  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+
+.`
+    },
+    {
+      images: ['/womansuits/MZ19800638GWAS.jpg','/womansuits/MZ19800638GWAS-2.jpg','/womansuits/MZ19800638GWAS-3.jpg','/womansuits/MZ19800638GWAS-4.jpg',],
+      title: '3pc woman unstiched  lawn embrioderded suit',
+      price: 'Rs3399',
+      Description:`•  Fabric: Lawn
+•  Pattern: Embroidered
+•  Shirt Front Pattern: Embroidered
+•  Shirt Back Pattern: Plain
+•  Trouser Pattern: Plain
+•  Dupatta Fabric: Chiffon
+•  Dupatta Pattern: Embroidered
+•  Number Of Pieces: 3 Pcs
+•  Package Includes: 1 x Shirt, 1 x Trouser, 1 x Dupatta
+•  Shirt Cutting: 2.25 Gazz
+•  Trouser Cutting: 2.25 Gazz
+•  Dupatta Cutting: 2.25 Gazz
+•   Color: Mustard
+•  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+
+.`
+    },
+    {
+      images: ['/womansuits/MZ19800640GWAS.jpg','/womansuits/MZ19800640GWAS-2.jpg','/womansuits/MZ19800640GWAS-3.jpg',],
+      title: '3pc woman unstiched  lawn embrioderded suit',
+      price: 'Rs3399',
+      Description:`•  Fabric: Lawn
+•  Pattern: Embroidered
+•  Shirt Front Pattern: Embroidered
+•  Shirt Back Pattern: Plain
+•  Trouser Pattern: Plain
+•  Dupatta Fabric: Chiffon
+•  Dupatta Pattern: Embroidered
+•  Number Of Pieces: 3 Pcs
+•  Package Includes: 1 x Shirt, 1 x Trouser, 1 x Dupatta
+•  Shirt Cutting: 2.25 Gazz
+•  Trouser Cutting: 2.25 Gazz
+•  Dupatta Cutting: 2.25 Gazz
+•   Color: Purple
+•  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+
+.`
+    },
+    {
+      images: ['/womansuits/MZ19800641GWAS.jpg','/womansuits/MZ19800641GWAS-2.jpg','/womansuits/MZ19800641GWAS-3.jpg',],
+      title: '3pc woman unstiched  lawn embrioderded suit',
+      price: 'Rs3399',
+      Description:`•  Fabric: Lawn
+•  Pattern: Embroidered
+•  Shirt Front Pattern: Embroidered
+•  Shirt Back Pattern: Plain
+•  Trouser Pattern: Plain
+•  Dupatta Fabric: Chiffon
+•  Dupatta Pattern: Embroidered
+•  Number Of Pieces: 3 Pcs
+•  Package Includes: 1 x Shirt, 1 x Trouser, 1 x Dupatta
+•  Shirt Cutting: 2.25 Gazz
+•  Trouser Cutting: 2.25 Gazz
+•  Dupatta Cutting: 2.25 Gazz
+•   Color: Black
+•  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+
+.`
+    },
+    {
+      images: ['/womansuits/MZ18601615GWART.jpg','/womansuits/MZ18601615GWART-2.jpg','/womansuits/MZ18601615GWART-3.jpg','/womansuits/MZ18601615GWART-4.jpg',],
+      title: '2 pc woman unstitched khaddar printed suit',
+      price: 'Rs2299',
+      Description:`•  Fabric: Khaddar
+•  Shirt: Printed
+•  Trouser: Printed
+•  Cuttings: Shirt: 2.5 Gazz, Trouser: 2.5 Gazz
+•  Season: Winters
+•  Package Includes: 1 x Shirt, 1 x Trouser
+•  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+.`
+    },
+    {
+      images: ['/womansuits/MZ105320202SSCN.jpg','/womansuits/MZ105320202SSCN-2.jpg','/womansuits/MZ105320202SSCN-3.jpg','/womansuits/MZ105320202SSCN-4.jpg',],
+      title: '2pc woman stitched linan embroidered shirt and trouser',
+      price: 'Rs2950',
+      Description:`•  Fabric: Linen
+•  Pattern: Embroidered
+•  Available Sizes: Medium, Large
+•  Chest: 21(M), 23(L)
+•  Length: 37(M), 28(L)
+•  Number Of Pieces: 2 Pcs
+•  Color: Black
+•  Package Includes: 1 x Shirt, 1 x Trouser
+•  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.`
+    },
+    {
+      images: ['/womansuits/MZ105320202SSCN.jpg','/womansuits/MZ105320202SSCN-2.jpg','/womansuits/MZ105320202SSCN-3.jpg','/womansuits/MZ105320202SSCN-4.jpg',],
+      title: '2pc woman stitched linan embroidered shirt and trouser',
+      price: 'Rs2950',
+      Description:`•  Fabric: Linen
+•  Pattern: Embroidered
+•  Available Sizes: Medium, Large
+•  Chest: 21(M), 23(L)
+•  Length: 37(M), 28(L)
+•  Number Of Pieces: 2 Pcs
+•  Color: Black
+•  Package Includes: 1 x Shirt, 1 x Trouser
+•  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.`
+    },
+    {
+      images: ['/womansuits/MZ105320106SSCN.jpg','/womansuits/MZ105320106SSCN-2.jpg','/womansuits/MZ105320106SSCN-3.jpg',],
+      title: '2pc woman stitched linan printed  suit',
+      price: 'Rs1999',
+      Description:`•  Gender: Women's
+•  Fabric: Linen
+•  Pattern: Printed
+•  Shirt - Pattern: Printed
+•  Trouser - Pattern: Printed
+•  Available Sizes: Medium, Large
+•  Number Of Pieces: 2 Pcs
+•  Color: Red
+•  Package Includes: 1 x Shirt, 1 x Trouser
+•  Available Sizes: Medium, Large
+•  •  Medium: Shirt (Chest 21, Length 38), Trouser (Length 38) Inches
+•  •  Large: Shirt (Chest 23, Length 38), Trouser (Length 38) Inches
+•  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+
+`
+    },
+
+    {
+      images: ['/womansuits/MZ92820062PKLS.jpg','/womansuits/MZ92820062PKLS-2.jpg','/womansuits/MZ92820062PKLS-3.jpg','/womansuits/MZ92820062PKLS-4.jpg',],
+      title: '22pc woman stiched  linan  embriodered Shirt and trouser',
+      price: 'Rs2099',
+      Description:`•  Gender: Women's
+•  Fabric: Linen
+•  Pattern: Embroidered
+•  Shirt - Pattern: Embroidered
+•  Trouser - Pattern: Plain
+•  Available Sizes: Medium, Large
+•  Size Chart: 
+•  Medium: Shirt (Chest 21, Lenght 38), Trouser (Lenght 38) Inches
+•  Large: Shirt (Chest 23, Lenght 38), Trouser (Lenght 38) Inches
+•  Number Of Pieces: 2 Pcs
+•  Color: White
+•  Package Includes: 1 x Shirt, 1 x Trouser
+•  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+`
+    },
+    {
+      images: ['/womansuits/MZ92820068PKLS.jpg','/womansuits/MZ92820068PKLS-2.jpg','/womansuits/MZ92820068PKLS-3.jpg','/womansuits/MZ92820068PKLS-4.jpg',],
+      title: '2pc woman arabic lawn printed suit',
+      price: 'Rs1399',
+      Description: `•  Gender: Women's
+•  Fabric: Arabic Lawn
+•  Pattern: Printed
+•  Shirt - Pattern: Printed
+•  Trouser - Pattern: Printed
+•  Available Sizes: Medium, Large
+•  Size Chart: 
+•  Medium: Shirt (Chest 21, Lenght 38), Trouser (Lenght 38) Inches
+•  Large: Shirt (Chest 23, Lenght 38), Trouser (Lenght 38) Inches
+•  Number Of Pieces: 2 Pcs
+•  Color: Purple
+•  Package Includes: 1 x Shirt, 1 x Trouser
+•  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+
+    `
+    },
+    {
+      images: ['/womansuits/MZ92820077PKLS.jpg','/womansuits/MZ92820077PKLS-2.jpg','/womansuits/MZ92820077PKLS-3.jpg','/womansuits/MZ92820077PKLS-4.jpg',],
+      title: '2 pc woman stitched  linan printed suit',
+      price: 'Rs1299',
+      Description: `•  Gender: Women's
+•  Fabric: Linen
+•  Pattern: Printed
+•  Shirt - Pattern: Printed
+•  Trouser - Pattern: Printed
+•  Available Sizes: Medium, Large
+•  Size Chart: 
+•  Medium: Shirt (Chest 21, Lenght 38), Trouser (Lenght 38) Inches
+•  Large: Shirt (Chest 23, Lenght 38), Trouser (Lenght 38) Inches
+•  Number Of Pieces: 2 Pcs
+•  Color: Black
+•  Package Includes: 1 x Shirt, 1 x Trouser
+•  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+
+    `
+    },
+    {
+      images: ['/womansuits/MZ36000020HMNKS-2.jpg',],
+      title: 'Lawn 2pc suit',
+      price: 'Rs1499',
+      Description: `•  Fabric: Lawn
+•  Department: Ladies Stitched 2pc
+•  Pattern: Printed
+•  Neck Style: Boat Neck
+•  Size: Medium
+•  Size Chart: Length: 35, Chest: 20
+•  Arm Size: 9
+•  Sleaves: 18
+•  Trouser Size:25 Width, 37 Length
+•  Note: There might be 1-3cm errors of dimension data due to pure manual measurement
+•  There might be slightly color difference due to different light and monitor effect.
+
+    `
+    },
+    {
+      images: ['/womansuits/MZ36000020HMNKS.jpg',],
+      title: 'Lawn 2pc suit',
+      price: 'Rs1499',
+      Description: `•  Fabric: Lawn
+•  Department: Ladies Stitched 2pc
+•  Pattern: Printed
+•  Neck Style: Boat Neck
+•  Size: Medium
+•  Size Chart: Length: 35, Chest: 20
+•  Arm Size: 9
+•  Sleaves: 18
+•  Trouser Size:25 Width, 37 Length
+•  Note: There might be 1-3cm errors of dimension data due to pure manual measurement
+•  There might be slightly color difference due to different light and monitor effect.
+
+
+
+    `
+    },
+    {
+      images: ['/womansuits/MZ23401369FZGRM.jpg', '/womansuits/MZ23401369FZGRM-2.jpg','/womansuits/MZ23401369FZGRM-3.jpg',],
+      title: '3pc woman stitched  cotton digital print suit',
+      price: 'Rs2599',
+      Description: `•  Fabric: Cotton
+•  Pattern: Digital Print
+•  Shirt Pattern: Digital Print
+•  Trouser Pattern: Plain
+•  Dupatta Pattern: Digital Print
+•  Available Sizes: Medium
+•  Number Of Pieces: 3 Pcs
+•  Color: White
+•  Package Includes: 1 x Shirt, 1 x Trouser, 1 x Dupatta
+•  Shirt Length: 37 Inches
+•  Shirt Chest: 20 Inches
+•  Shirt Shoulder: 16 Inches
+•  Arm Length: 9 Inches
+•  Trouser Length: 38 Inches
+•  Trouser Waist: 22 Inches
+•  Trouser Hip: 26 Inches
+•  Dupatta Dimensions: 2.5 Yards
+•  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects
+
+
+    `
+    },
+    {
+      images: ['/womansuits/MZ23800432MKCLN.jpg', '/womansuits/MZ23800432MKCLN-2.jpg','/womansuits/MZ23800432MKCLN-3.jpg','/womansuits/MZ23800432MKCLN-4.jpg','/womansuits/MZ23800432MKCLN-5.jpg',],
+      title: '3pc woman stitched chima chamki printed suit',
+      price: 'Rs1799',
+      Description: `•  Fabric: Chima Chamki
+•  Product Type: Printed Stitched Suit
+•  Pattern: Printed
+•  Size: Standard
+•  Shirt (Chest 20 Inches, Shirt Length 36 Inches, Arm Hole 8 Inches), Trouser (Waist 25 Inches, Length 37 Inches), Dupatta (2.25 Gazz)
+•  Package Includes: 1 x Shirt, 1 x Trouser, 1 x Dupatta
+•  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+
+
+
+    `
+    },
+    {
+      images: ['/womansuits/MZ104420117FYCGHB.jpg', '/womansuits/MZ104420117FYCGHB-2.jpg','/womansuits/MZ104420117FYCGHB-3.jpg','/womansuits/MZ104420117FYCGHB-4.jpg','/womansuits/MZ104420117FYCGHB-5.jpg',],
+      title: '3pc woman stitched katan silk printed suit',
+      price: 'Rs2099',
+      Description: `•  Fabric: Katan Silk
+•  Pattern: Printed
+•  Available Sizes: Medium
+•  Number Of Pieces: 3 Pcs
+•  Color: Yellow
+•  Package Includes: 1 x Shirt, 1 x Trouser, 1 x Dupatta
+•  Shirt Length: 37 Inches
+•  Shirt Chest: 20 Inches
+•  Daman: 20 Inches
+•  Trouser Length: 38 Inches
+•  Trouser Waist: 22 Inches
+•  Dupatta Dimensions: 2.5 Yards
+•  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+
+
+    `
+    },
+    {
+      images: ['/womansuits/MZ114120068FNAE.jpg', '/womansuits/MZ114120068FNAE-2.jpg','/womansuits/MZ114120068FNAE-3.jpg','/womansuits/MZ114120068FNAE-4.jpg','/womansuits/MZ114120068FNAE-5.jpg',],
+      title: '2pc woman stitched linan suit with hand bag',
+      price: 'Rs2299',
+      Description: `  Fabric: Linen
+•  Pattern: Printed
+•  Shirt Pattern: Printed
+•  Trouser Pattern: Printed
+•  Available Sizes: Medium
+•  Number Of Pieces: 3 Pcs
+•  Color: Maroon
+•  Package Includes: 1 x Shirt, 1 x Trouser, 1 x Hang Bag
+•  Shirt Length: 36 Inches
+•  Shirt Chest: 20 Inches
+•  Shirt Shoulder: 17 Inches
+•  Arm Length: 8.5 Inches
+•  Trouser Length: 38 Inches
+•  Trouser Waist: 23 Inches
+•  Trouser Hip: 22 Inches
+•  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+
+    `
+    },
+    {
+      images: ['/womansuits/MZ29700382HMLBS.jpg', '/womansuits/MZ29700382HMLBS-2.jpg','/womansuits/MZ29700382HMLBS-3.jpg','/womansuits/MZ29700382HMLBS-4.jpg','/womansuits/MZ29700382HMLBS-5.jpg'],
+      title: '3pc woman stitched cotton suit',
+      price: 'Rs1599',
+      Description: `•  Fabric: Cotton
+•  Product Type: Suit
+•  Pattern: Plain
+•  Neck Type: Round Neck
+•  Available Sizes: Standard Size
+•  Size: Shirt (Chest 20, Length 36), Trouser (Width 24, Length 37), Dupatta: 2.25 Yards
+•  Package Includes: 1 x Shirt, 1 x Trouser, 1 x Dupatta
+•  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects
+    `
+    },
+    {
+      images: ['/womansuits/MZ73800143ZAAS.jpg', '/womansuits/MZ73800143ZAAS-2.jpg','/womansuits/MZ73800143ZAAS-3.jpg','/womansuits/MZ73800143ZAAS-4.jpg'],
+      title: '3pc woman stitched cotton suit',
+      price: 'Rs2799',
+      Description: `•  Fabric: Cotton
+•  Pattern: Printed
+•  Neck Type: Round Neck
+•  Shirt Pattern: Printed
+•  Trouser Pattern: Plain
+•  Dupatta Pattern: Printed
+•  Available Sizes: Medium
+•  Number Of Pieces: 3 Pcs
+•  Color: White
+•  Package Includes: 1 x Shirt, 1 x Trouser, 1 x Dupatta
+•  Shirt Length: 37 Inches
+•  Shirt Chest: 20 Inches
+•  Shirt Shoulder: 16 Inches
+•  Trouser Length: 38 Inches
+•  Dupatta Dimensions: 81 Inches
+•  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+
+    `
+    },
     {
       images: ['/womansuits/MZ42200545ZUJFB.jpg', '/womansuits/MZ42200545ZUJFB-2.jpg'],
       title: '3 Pcs Womans Unstitched Dhanak Embroidered Suit',
@@ -47,7 +414,7 @@ const WomanSuits = () => {
     •  Trouser Cutting: 2.5 Gazz
     •  Dupatta Cutting: 2.5 Gazz
     •  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
-    •  Product Code: MZ12320163HNBSSE'`
+`
     },
     {
       images: ['/womansuits/MZ12320337HNBSSE.jpg', '/womansuits/MZ12320337HNBSSE-2.jpg', '/womansuits/MZ12320337HNBSSE-3.jpg'],
@@ -197,7 +564,7 @@ const WomanSuits = () => {
 •  Color: Black
 •  Package Includes: 1 x Shirt, 1 x Trouser
 •  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
-•  Product Code: MZ106820049SDAS`
+`
     },  
     {
       images: ['/womansuits/MZ106820048SDAS.jpg', '/womansuits/MZ106820048SDAS-2.jpg', '/womansuits/MZ106820048SDAS-3.jpg', '/womansuits/MZ106820048SDAS-4.jpg',],
@@ -215,7 +582,7 @@ const WomanSuits = () => {
 •  Shirt Length: (M-37), (L-38) Inches
 •  Shirt Chest: (M_21), (L-23) Inches
 •  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
-•  Product Code: MZ106820048SDAS`
+`
     },  
     {
       images: ['/womansuits/MZ23401302FZGRM.jpg', '/womansuits/MZ23401302FZGRM-2.jpg', '/womansuits/MZ23401302FZGRM-3.jpg', '/womansuits/MZ23401302FZGRM-4.jpg',],
@@ -232,7 +599,7 @@ const WomanSuits = () => {
 •  Shirt Length: 38 Inches
 •  Shirt Chest: 21 Inches (M),23 Inches (L).
 •  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
-•  Product Code: MZ23401302FZGRM`
+`
     },  
     {
       images: ['/womansuits/MZ41000000006LSEEKS.jpg', '/womansuits/MZ41000000006LSEEKS-2.jpg',],
@@ -252,7 +619,7 @@ const WomanSuits = () => {
 •  No. Of Pieces: 2 Pcs
 •  Package Includes: 1 x Shirt, 1 x Trouser
 •  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
-•  Product Code: MZ41000000006LSEEKS`
+`
     },  
     {
       images: ['/womansuits/MZ1102109AG.jpg', '/womansuits/MZ1102109AG-2.jpg','/womansuits/MZ1102109AG-3.jpg','/womansuits/MZ1102109AG-4.jpg',],
@@ -274,7 +641,7 @@ const WomanSuits = () => {
 •  Trouser Hip: 15 Inches
 •  Package Includes: 1 x Shirt, 1 x Trouser
 •  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
-•  Product Code: MZ1102109AG`
+`
     },  
     
     {
@@ -293,7 +660,7 @@ const WomanSuits = () => {
 •  Trouser Length: (M-38), (L-38) Inches
 •  Package Includes: 1 x Shirt, 1 x Trouser
 •  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
-•  Product Code: MZ92820146PKLS`
+`
     },  
     {
       images: ['/womansuits/MZ1102079AG-4.jpg', '/womansuits/MZ1102079AG-2.jpg','/womansuits/MZ1102079AG-3.jpg','/womansuits/MZ1102079AG.jpg','/womansuits/MZ1102079AG-5.jpg',],
@@ -318,7 +685,7 @@ const WomanSuits = () => {
 •  Number Of Pieces: 2 Pcs
 •  Package Includes: 1 x Shirt, 1 x Trouser
 •  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
-•  Product Code: MZ1102079AG`
+`
     },  
     {
       images: ['/womansuits/MZ48000049BRKCL.jpg', '/womansuits/MZ48000049BRKCL-2.jpg','/womansuits/MZ48000049BRKCL-3.jpg',],
@@ -331,7 +698,7 @@ const WomanSuits = () => {
 •  Includes: 1 x Shirt, 1 x Trouser
 •  Disclaimer: Product color may slightly vary due to photographic lighting sources or your monitor settings
 •  There might be 1-3cm errors of dimension data due to pure manual measurement.
-•  Product Code: MZ48000049BRKCL`
+`
     },  
     
     {
@@ -353,7 +720,7 @@ const WomanSuits = () => {
 •  Trouser Waist: 21 Inches
 •  Dupatta Dimensions: 2.5 Gazz
 •  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
-•  Product Code: MZ73800052ZAAS`
+`
     },  
     {
       images: ['/womansuits/MZ92820092PKLS.jpg', '/womansuits/MZ92820092PKLS-2.jpg','/womansuits/MZ92820092PKLS-3.jpg','/womansuits/MZ92820092PKLS-4.jpg',],
@@ -372,7 +739,7 @@ const WomanSuits = () => {
 •  Shirt Chest: 21/23 Inches
 •  Trouser Length: 38 Inches
 •  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
-•  Product Code: MZ92820092PKLS`
+`
     },  
     {
       images: ['/womansuits/MZ41000000021LSEEKS.jpg', '/womansuits/MZ41000000021LSEEKS-2.jpg','/womansuits/MZ41000000021LSEEKS-3.jpg','/womansuits/MZ41000000021LSEEKS-4.jpg','/womansuits/MZ41000000021LSEEKS-5.jpg','/womansuits/MZ41000000021LSEEKS-6.jpg','/womansuits/MZ41000000021LSEEKS-7.jpg',],
@@ -406,7 +773,7 @@ const WomanSuits = () => {
 •  Asan: 16
 •  Package Includes: 1 x Shirt, 1 x Trouser
 •  undefined
-•  Product Code: MZ41000000021LSEEKS`
+`
     },  
     // ... (same as before)
   ];
@@ -462,6 +829,10 @@ const WomanSuits = () => {
   };
 
   return (
+    <>
+        <head>
+      <title>WomanSuits</title>
+    </head>
     <div className="relative flex flex-col items-center mt-[120px] px-4">
       <div className="flex overflow-hidden gap-2 mb-4 flex-wrap justify-center">
         {cards.slice(currentIndex, currentIndex + itemsToShow).map((card, index) => (
@@ -576,6 +947,7 @@ const WomanSuits = () => {
         </div>
       )}
     </div>
+                </>
   );
 };
 

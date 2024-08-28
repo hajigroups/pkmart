@@ -356,6 +356,10 @@ const Cosmetics = () => {
     };
 
     return (
+        <>
+            <head>
+      <title>Watches</title>
+    </head>
         <div className="relative flex flex-col items-center mt-[120px] px-4">
             <div className="flex overflow-hidden gap-2 mb-4 flex-wrap justify-center">
                 {cards.slice(currentIndex, currentIndex + itemsToShow).map((card, index) => (
@@ -363,7 +367,7 @@ const Cosmetics = () => {
                         key={index}
                         className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 cursor-pointer mb-4"
                         onClick={() => handleCardClick({ ...card, currentImage: card.images[0] })}
-                    >
+                        >
                         <a href="#">
                             <LazyLoadImage
                                 className="p-4 rounded-t-lg w-full h-auto"
@@ -423,7 +427,7 @@ const Cosmetics = () => {
             </button>
             {selectedCard && (
                 <div
-                    className="fixed top-0 left-0 w-full h-full  bg-black bg-opacity-50 flex items-center justify-center"
+                className="fixed top-0 left-0 w-full h-full  bg-black bg-opacity-50 flex items-center justify-center"
                     onClick={handleOverlayClick}
                 >
                     <div className="relative bg-white p-4 md:p-6 rounded-lg max-w-lg mx-4" onClick={(e) => e.stopPropagation()}>
@@ -470,6 +474,7 @@ const Cosmetics = () => {
                 </div>
             )}
         </div>
+            </>
     );
 };
 

@@ -11,6 +11,180 @@ const Womanshoes = () => {
   const router = useRouter();
 
   const cards = [
+
+ 
+    {
+      images: ['/womansuits/MZ96620011INSOLE.jpg','/womansuits/MZ96620011INSOLE-2.jpg',],
+      title: `Woman rexine fancyslipper`,
+      price: 'Rs1399',
+      Description:`•  Material: Rexine
+•  Pattern: Plain
+•  Gender: Women
+•  Product Feature: Fancy
+•  Available Sizes: 7, 8, 9, 10
+•  Size Chart: Size Chart Attached
+•  Color: Brown
+•  Package Includes: 1 x Chappal Pair
+•  Note: Slight color differences may occur as a result of varying lighting and monitor effects.
+
+
+`
+    },
+    {
+      images: ['/womansuits/MZ85120033BDSP-4.jpg','/womansuits/MZ85120033BDSP-5.jpg','/womansuits/MZ85120033BDSP-6.jpg',,],
+      title: `Woman synthetic leather casual flats`,
+      price: 'Rs1500',
+      Description:`•  Material: Synthetic Leather
+•  Pattern: Rhinestone
+•  Gender: Women's
+•  Product Feature: Casual
+•  Available Sizes: 36, 37, 38, 39, 40, 41
+•  Size Chart: Size Chart Attached
+•  Color: Beige
+•  Package Includes: 1 x Flats
+•  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+
+
+`
+    },
+    {
+      images: ['/womansuits/MZ85120033BDSP.jpg','/womansuits/MZ85120033BDSP-2.jpg','/womansuits/MZ85120033BDSP-3.jpg',],
+      title: `Woman synthetic leather casual flats`,
+      price: 'Rs1999',
+      Description:`•  Material: Synthetic Leather
+•  Pattern: Rhinestone
+•  Gender: Women's
+•  Product Feature: Casual
+•  Available Sizes: 36, 37, 38, 39, 40, 41
+•  Size Chart: Size Chart Attached
+•  Color: Beige
+•  Package Includes: 1 x Flats
+•  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+
+
+`
+    },
+    {
+      images: ['/womansuits/MZ65900186FCPK.jpg','/womansuits/MZ65900186FCPK-2.jpg',],
+      title: `Woman rexine fancy flats`,
+      price: 'Rs1999',
+      Description:`•  Material: Rexine
+•  Pattern: Plain
+•  Gender: Women's
+•  Product Feature: Fancy
+•  Available Sizes: 36, 37, 38, 39, 40, 41
+•  Size Chart: Size Chart Attached
+•  Color: Grey
+•  Package Includes: 1 x Flats
+•  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+
+
+
+
+`
+    },
+    {
+      images: ['/womansuits/MZ65900185FCPK.jpg','/womansuits/MZ65900185FCPK-2.jpg','/womansuits/MZ65900185FCPK-3.jpg', '/womansuits/MZ65900185FCPK-4.jpg' ,],
+      title: `Woman rexine fancy flats`,
+      price: 'Rs1999',
+      Description:`•  Material: Rexine
+•  Pattern: Plain
+•  Gender: Women's
+•  Product Feature: Fancy
+•  Available Sizes: 36, 37, 38, 39, 40, 41
+•  Size Chart: Size Chart Attached
+•  Color: Blue
+•  Package Includes: 1 x Flats
+•  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+
+
+
+`
+    },
+    {
+      images: ['/womansuits/MZ65900185FCPK-3.jpg', '/womansuits/MZ65900185FCPK-4.jpg' ,],
+      title: `Woman synthetic leather casual chapple`,
+      price: 'Rs3499',
+      Description:`•  Material: Synthetic Leather
+•  Pattern: Plain
+•  Gender: Women's
+•  Product Feature: Casual
+•  Available Sizes: 36, 37, 38, 39, 40
+•  Size Chart: Size Chart Attached
+•  Color: Maroon
+•  Package Includes: 1 x Chappal
+•  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+.
+
+
+`
+    },
+    {
+      images: ['/womansuits/MZ85120049BDSP.jpg', '/womansuits/MZ85120049BDSP-2.jpg' ,],
+      title: `Woman synthetic leather casual chapple`,
+      price: 'Rs3499',
+      Description:`•  Material: Synthetic Leather
+•  Pattern: Plain
+•  Gender: Women's
+•  Product Feature: Casual
+•  Available Sizes: 36, 37, 38, 39, 40
+•  Size Chart: Size Chart Attached
+•  Color: Maroon
+•  Package Includes: 1 x Chappal
+•  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+.
+
+
+`
+    },
+    {
+      images: ['/womansuits/MZ85120050BDSP.jpg', '/womansuits/MZ85120050BDSP-2.jpg' ,],
+      title: `Woman synthetic leather casual chapple`,
+      price: 'Rs3499',
+      Description:`•  Material: Synthetic Leather
+•  Pattern: Plain
+•  Gender: Women's
+•  Product Feature: Casual
+•  Available Sizes: 36, 37, 38, 39, 40
+•  Size Chart: Size Chart Attached
+•  Color: Brown
+•  Package Includes: 1 x Chappal
+•  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+
+
+`
+    },
+    {
+      images: ['/womansuits/MZ78400061JYWA.jpg', '/womansuits/MZ78400061JYWA-2.jpg' ,'/womansuits/MZ78400061JYWA-3.jpg','/womansuits/MZ78400061JYWA-4.jpg',],
+      title: `Woman Fabric  Semi-Formal Flats`,
+      price: 'Rs3499',
+      Description:`•  Material: Fabric
+•  Pattern: Printed
+•  Gender: Women's
+•  Product Feature: Semi-Formal
+•  Available Sizes: 6, 7, 8, 9, 10, 11, 12
+•  Size Chart: Size Chart Attached
+•  Color: Black
+•  Package Includes: 1 x Flats
+•  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+
+`
+    },
+    {
+      images: ['/womansuits/MZ65900212FCPK.jpg', '/womansuits/MZ65900212FCPK-2.jpg' ,'/womansuits/MZ65900212FCPK-3.jpg','/womansuits/MZ65900212FCPK-5.jpg','/womansuits/MZ65900212FCPK-6.jpg','/womansuits/MZ65900212FCPK-4.jpg'],
+      title: `Women's Rexine fancy flats`,
+      price: 'Rs1999',
+      Description:`•  Material: Rexine
+•  Pattern: Rhinestone
+•  Gender: Women's
+•  Product Feature: Fancy
+•  Available Sizes: 36, 37, 38, 39, 40, 41
+•  Size Chart: Size Chart Attached
+•  Color: Maroon
+•  Package Includes: 1 x Flats
+•  Note: There might be an error of 1-3 cm due to manual measurement, and slight color differences may occur as a result of varying lighting and monitor effects.
+`
+    },
     {
       images: ['/womansuits/MZ85120005BDSP.jpg', '/womansuits/MZ85120005BDSP-2.jpg' ,'/womansuits/MZ85120005BDSP-3.jpg'],
       title: 'Ladies Fancy Flat',
@@ -268,6 +442,10 @@ const Womanshoes = () => {
   };
 
   return (
+    <>
+        <head>
+      <title>WomanShoes</title>
+    </head>
     <div className="relative flex flex-col items-center mt-[120px] px-4">
       <div className="flex overflow-hidden gap-2 mb-4 flex-wrap justify-center">
         {cards.slice(currentIndex, currentIndex + itemsToShow).map((card, index) => (
@@ -292,7 +470,7 @@ const Womanshoes = () => {
                 <div className="flex items-center space-x-1 rtl:space-x-reverse">
                   {[...Array(5)].map((_, i) => (
                     <svg
-                      key={i}
+                    key={i}
                       className={`w-4 h-4 ${i < 4 ? 'text-yellow-300' : 'text-gray-200 dark:text-gray-600'}`}
                       aria-hidden="true"
                       fill="currentColor"
@@ -322,7 +500,7 @@ const Womanshoes = () => {
         disabled={currentIndex === 0}
         aria-label="Previous"
         className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-blue-500 text-white p-2 rounded-lg disabled:bg-gray-300"
-      >
+        >
         Prev
       </button>
       <button
@@ -330,19 +508,19 @@ const Womanshoes = () => {
         disabled={currentIndex + itemsToShow >= cards.length}
         aria-label="Next"
         className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-blue-500 text-white p-2 rounded-lg disabled:bg-gray-300"
-      >
+        >
         Next
       </button>
       {selectedCard && (
         <div
-          className="fixed top-0 left-0 w-full h-full  bg-black bg-opacity-50 flex items-center justify-center"
-          onClick={handleOverlayClick}
+        className="fixed top-0 left-0 w-full h-full  bg-black bg-opacity-50 flex items-center justify-center"
+        onClick={handleOverlayClick}
         >
           <div className="relative bg-white p-4 md:p-6 rounded-lg max-w-lg mx-4" onClick={(e) => e.stopPropagation()}>
             <button
               onClick={handleCloseModal}
               className="absolute top-2 right-2 text-gray-500 hover:text-gray-700"
-            >
+              >
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
               </svg>
@@ -382,6 +560,7 @@ const Womanshoes = () => {
         </div>
       )}
     </div>
+              </>
   );
 };
 
