@@ -7,7 +7,9 @@ const nodemailer = require('nodemailer');
 const app = express();
 const port = 5000;
 
-app.use(cors());
+app.use(cors({
+  origin: process.env.FRONTEND_URL, // Allow requests from your frontend domain
+}));
 app.use(bodyParser.json());
 
 // MongoDB connection tPSQ2dd6aj5oOBQR mongodb+srv://sulmandhap56:tPSQ2dd6aj5oOBQR@pkmart.znaua.mongodb.net/?retryWrites=true&w=majority&appName=PKMART
