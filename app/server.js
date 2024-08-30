@@ -7,10 +7,7 @@ const nodemailer = require('nodemailer');
 const app = express();
 const port = 5000;
 
-app.use(cors({
-  origin: 'https://pkmart-git-main-muhammad-sulemans-projects-248e52ae.vercel.app', // Your frontend Vercel URL
-}));
-
+app.use(cors());
 app.use(bodyParser.json());
 
 // MongoDB connection tPSQ2dd6aj5oOBQR mongodb+srv://sulmandhap56:tPSQ2dd6aj5oOBQR@pkmart.znaua.mongodb.net/?retryWrites=true&w=majority&appName=PKMART
