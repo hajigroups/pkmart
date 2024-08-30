@@ -1,6 +1,6 @@
 "use client"; // Marking this file as a Client Component
 
-import React, { useState } from 'react';
+import React, { useState, Suspense } from 'react';
 import Head from 'next/head';
 import { useSearchParams } from 'next/navigation';
 
@@ -156,4 +156,10 @@ const ShopNow = () => {
   );
 };
 
-export default ShopNow;
+const ShopNowPage = () => (
+  <Suspense fallback={<div>Loading...</div>}>
+    <ShopNow />
+  </Suspense>
+);
+
+export default ShopNowPage;
