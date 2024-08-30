@@ -10,8 +10,8 @@ const port = 5000;
 app.use(cors());
 app.use(bodyParser.json());
 
-// MongoDB connection tPSQ2dd6aj5oOBQR
-mongoose.connect('mongodb+srv://sulmandhap56:tPSQ2dd6aj5oOBQR@pkmart.znaua.mongodb.net/?retryWrites=true&w=majority&appName=PKMART/e-commerce', {
+// MongoDB connection tPSQ2dd6aj5oOBQR mongodb+srv://sulmandhap56:tPSQ2dd6aj5oOBQR@pkmart.znaua.mongodb.net/?retryWrites=true&w=majority&appName=PKMART
+mongoose.connect('mongodb://localhost:27017/e-commerce', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 }).then(() => {

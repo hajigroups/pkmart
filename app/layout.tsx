@@ -18,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="text-[15px]">
       <body style={{ backgroundColor: '#f5f6f6' }} className={inter.className}>
         <AuthProvider>
           <Navbar />

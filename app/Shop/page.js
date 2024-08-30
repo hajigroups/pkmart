@@ -1,6 +1,7 @@
 "use client"; // Marking this file as a Client Component
 
 import React, { useState } from 'react';
+import Head from 'next/head';
 import { useSearchParams } from 'next/navigation';
 
 const ShopNow = () => {
@@ -61,99 +62,98 @@ const ShopNow = () => {
 
   return (
     <>
-        <head>
-      <title>Order Now</title>
-    </head>
-    <div className='text-center p-40'>
-      <h1 className='text-3xl font-bold mb-10'>Place the Order</h1>
-
-      <form onSubmit={handleSubmit}>
-        <div className='Product-image m-3'>
-          {image && (
-            <img
-              src={image}
-              alt={title}
-              className='w-[20%] h-auto ml-[330px] bg-[#F0ECE3] rounded-xl'
+      <Head>
+        <title>Order Now</title>
+      </Head>
+      <div className='text-center p-40'>
+        <h1 className='text-3xl font-bold mb-10'>Place the Order</h1>
+        <form onSubmit={handleSubmit}>
+          <div className='Product-image m-3'>
+            {image && (
+              <img
+                src={image}
+                alt={title}
+                className='w-[20%] h-auto ml-[330px] bg-[#F0ECE3] rounded-xl'
+              />
+            )}
+          </div>
+          <div className='Product-title m-3'>
+            <input
+              type="text"
+              className='w-[50%] p-4 text-2xl bg-[#F0ECE3] rounded-xl outline-none'
+              placeholder='Product Title'
+              value={title}
+              readOnly
             />
-          )}
-        </div>
-        <div className='Product-title m-3'>
-          <input
-            type="text"
-            className='w-[50%] p-4 text-2xl bg-[#F0ECE3] rounded-xl outline-none'
-            placeholder='Product Title'
-            value={title}
-            readOnly
+          </div>
+          <div className='Product-price m-3'>
+            <input
+              type="text"
+              className='w-[50%] p-4 text-2xl bg-[#F0ECE3] rounded-xl outline-none'
+              placeholder='Product Price'
+              value={price}
+              readOnly
             />
-        </div>
-        <div className='Product-price m-3'>
+          </div>
+          <div className='Customer-name m-3'>
+            <input
+              type="text"
+              className='w-[50%] p-4 text-2xl bg-[#F0ECE3] rounded-xl outline-none'
+              placeholder='Full Name'
+              value={fullname}
+              onChange={(e) => setFullname(e.target.value)}
+              required
+            />
+          </div>
+          <div className='Customer-email m-3'>
+            <input
+              type="email"
+              className='w-[50%] p-4 text-2xl bg-[#F0ECE3] rounded-xl outline-none'
+              placeholder='Enter Your Email Address'
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              required
+            />
+          </div>
+          <div className='Customer-address m-3'>
+            <input
+              type="text"
+              className='w-[50%] p-4 text-2xl bg-[#F0ECE3] rounded-xl outline-none'
+              placeholder='Address'
+              value={address}
+              onChange={(e) => setAddress(e.target.value)}
+              required
+            />
+          </div>
+          <div className='Customer-city m-3'>
+            <input
+              type="text"
+              className='w-[50%] p-4 text-2xl bg-[#F0ECE3] rounded-xl outline-none'
+              placeholder='City'
+              value={city}
+              onChange={(e) => setCity(e.target.value)}
+              required
+            />
+          </div>
+          <div className='Customer-description m-3'>
+            <textarea
+              name="description"
+              id="description"
+              placeholder='Write about Product'
+              className='w-[50%] p-4 text-2xl bg-[#F0ECE3] rounded-xl outline-none'
+              value={description}
+              onChange={(e) => setDescription(e.target.value)}
+            ></textarea>
+          </div>
           <input
-            type="text"
-            className='w-[50%] p-4 text-2xl bg-[#F0ECE3] rounded-xl outline-none'
-            placeholder='Product Price'
-            value={price}
-            readOnly
+            type="submit"
+            className='w-fit p-4 m-4 text-2xl bg-[#F0ECE3] rounded-xl outline-none cursor-pointer'
+            value="Order Now"
           />
-        </div>
-        <div className='Customer-name m-3'>
-          <input
-            type="text"
-            className='w-[50%] p-4 text-2xl bg-[#F0ECE3] rounded-xl outline-none'
-            placeholder='Full Name'
-            value={fullname}
-            onChange={(e) => setFullname(e.target.value)}
-            required
-          />
-        </div>
-        <div className='Customer-text m-3'>
-          <input
-            type="text"
-            className='w-[50%] p-4 text-2xl bg-[#F0ECE3] rounded-xl outline-none'
-            placeholder='Enter Your Mobile Number'
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            required
-          />
-        </div>
-        <div className='Customer-address m-3'>
-          <input
-            type="text"
-            className='w-[50%] p-4 text-2xl bg-[#F0ECE3] rounded-xl outline-none'
-            placeholder='Address'
-            value={address}
-            onChange={(e) => setAddress(e.target.value)}
-            required
-          />
-        </div>
-        <div className='Customer-city m-3'>
-          <input
-            type="text"
-            className='w-[50%] p-4 text-2xl bg-[#F0ECE3] rounded-xl outline-none'
-            placeholder='City'
-            value={city}
-            onChange={(e) => setCity(e.target.value)}
-            required
-          />
-        </div>
-        <div className='Customer-description m-3'>
-          <textarea
-            name="description"
-            id="description"
-            placeholder='Write about Product'
-            className='w-[50%] p-4 text-2xl bg-[#F0ECE3] rounded-xl outline-none'
-            value={description}
-            onChange={(e) => setDescription(e.target.value)}
-          ></textarea>
-        </div>
-        <input
-          type="submit"
-          className='w-fit p-4 m-4 text-2xl bg-[#F0ECE3] rounded-xl outline-none cursor-pointer'
-          value="Order Now"
-          />
-      </form>
-    </div>
-          </>
+        </form>
+      </div>
+    </>
   );
-}
+};
 
 export default ShopNow;

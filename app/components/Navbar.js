@@ -89,9 +89,9 @@ const Navbar = () => {
   }, [searchQuery]);
 
   return (
-    <nav className="flex flex-col lg:flex-row justify-between items-center p-4 md:p-6 bg-white shadow-md">
+    <nav className="flex   flex-col lg:flex-row justify-between items-center p-4 md:p-6 bg-white shadow-md">
       <div className="logo mb-4 lg:mb-0">
-        <img src="logo2.png" className="w-36" alt="Logo" />
+        <img src="logo2.png" className="w-16" alt="Logo" />
       </div>
       <div className="relative w-full lg:w-auto mb-4 lg:mb-0">
         <input
